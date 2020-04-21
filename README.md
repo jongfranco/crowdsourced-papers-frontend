@@ -9,6 +9,7 @@ Summaries and metadata can be manually submitted (this will be automated later)
 The prototype is available at https://covid-science-engine-prototype.herokuapp.com/ (currently password protected)
 
 ## Developer setup
+
 The stack is:
 
 - Ruby on Rails 6.0
@@ -17,6 +18,7 @@ The stack is:
 ### Installation
 
 Install and start postgresql:
+
 - On macOS, you can use `pg_ctl -D /usr/local/var/postgres start`
 - (To stop postgres use `pg_ctl -D /usr/local/var/postgres stop`)
 
@@ -37,11 +39,10 @@ rails db:setup
 
 The following environment variables can be set:
 
-| Environment variable | Description |
-| ---------------------|--------------------------|
+| Environment variable | Description                       |
+| -------------------- | --------------------------------- |
 | `AUTH_USERNAME`      | Username for basic authentication |
 | `AUTH_PASSWORD`      | Password for basic authentication |
-
 
 ## Launch app
 
